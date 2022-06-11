@@ -1,16 +1,6 @@
-import './App.css';
-import Header from './components/Header'
-import Footer from './components/Footer'
-//import Modal from './components/Modal'
-//import Nav from './components/Modal'
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <div className="App">
-     <Header />
-    <Footer />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
