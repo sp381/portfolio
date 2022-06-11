@@ -5,19 +5,38 @@ export default function Blog() {
     <div>
       <h1>Works</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+      <div>
+                    <ul>
+                        <li>
+                            {/* <a href="https://michaelr432.github.io/now-spinning-team-4/" target="_blank"> */}
+                                <img src="logo192.png" alt="new music release"></img>
+                                <h4>Now Spinning / Javascript/Web API's/Tailwind</h4>
+                            {/* </a> */}
+                        </li>
+
+                        <li class="horiseon">
+                            {/* <a href="https://sp381.github.io/code-refactor-challenge/" target="_blank"> */}
+                                <img src="logo192.png" alt="two people"></img>
+                                <h4>Horisean / Node/IoT</h4>
+                            {/* </a>  */}
+                        </li>
+
+                        <li class="calculator">
+                            {/* <a href="https://secret-ridge-77127.herokuapp.com/" target="_blank"> */}
+                                <img src="logo192.png" alt="movies"></img>
+                                <h4>A Movie Forum / MySQL/Express/Sequelize/Handlebars</h4>
+                            {/* </a> */}
+                        </li>
+
+                        <li class="run-buddy">
+                            {/* <a href="https://lernantino.github.io/run-buddy/" target="_blank"> */}
+                                <img src="logo192.png" alt="running shoe"></img>
+                                <h4>Run Buddy / HTML CSS</h4>
+                                
+                            {/* </a> */}
+                        </li>
+                    </ul> 
+                </div> 
       </p>
     </div>
   );
