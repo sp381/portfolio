@@ -9,29 +9,31 @@ export default function Blog() {
                     <ul>
                         <li>
                             {/* <a href="https://michaelr432.github.io/now-spinning-team-4/" target="_blank"> */}
-                                <img src="logo192.png" alt="new music release"></img>
-                                <h4>Now Spinning / Javascript/Web API's/Tailwind</h4>
+                                <img src="spinning-project.png" width={260} height={260} alt="new music release"></img>
+                                <h4>Now Spinning
+                                <br />
+                                Javascript/Web API's/Tailwind
+                                </h4>
                             {/* </a> */}
                         </li>
 
-                        <li class="horiseon">
-                            {/* <a href="https://sp381.github.io/code-refactor-challenge/" target="_blank"> */}
-                                <img src="logo192.png" alt="two people"></img>
-                                <h4>Horisean / Node/IoT</h4>
-                            {/* </a>  */}
-                        </li>
-
-                        <li class="calculator">
+                        <li>
                             {/* <a href="https://secret-ridge-77127.herokuapp.com/" target="_blank"> */}
-                                <img src="logo192.png" alt="movies"></img>
-                                <h4>A Movie Forum / MySQL/Express/Sequelize/Handlebars</h4>
+                                <img src="movie-project.png" width={275} height={230} alt="movies"></img>
+                                <h4>A Movie Forum
+                                <br />
+                                MySQL/Express/Sequelize/Handlebars
+                                </h4>
                             {/* </a> */}
                         </li>
 
-                        <li class="run-buddy">
+                        <li>
                             {/* <a href="https://lernantino.github.io/run-buddy/" target="_blank"> */}
-                                <img src="logo192.png" alt="running shoe"></img>
-                                <h4>Run Buddy / HTML CSS</h4>
+                                <img src="password-generator.png" width={260} height={260} alt="create passord"></img>
+                                <h4>Password Generator 
+                                    <br />
+                                    HTML/CSS/JavaScript
+                                </h4>
                                 
                             {/* </a> */}
                         </li>
