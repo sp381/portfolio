@@ -1,10 +1,17 @@
 import React, { useState } from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import Header from '../src/components/Header';
-import Footer from '../src/components/Footer';
+// import Header from '../src/components/Header';
+// import Footer from '../src/components/Footer';
 
-const App = () => <PortfolioContainer />; {
-    
+function App() {
+
+    return (
+        <>
+            {/* <Header /> */}
+            <PortfolioContainer />
+            {/* <Footer /> */}
+        </>
+    )
 }
 
 
