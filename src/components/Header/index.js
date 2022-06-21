@@ -4,8 +4,8 @@ import React from "react";
 const Header = ({ setPage }) => {
 
     return (
-      <div>
-        <h1>Sarah Powell     Full Stack Developer </h1>
+      <div class="p-3 mb-2 bg-info text-white">
+        <h1>Sarah Powell</h1>
         {/* <NavTabs setPage={setPage} /> */}
       </div>
     );
