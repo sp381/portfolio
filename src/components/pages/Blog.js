@@ -37,6 +37,15 @@ export default function Blog() {
                             </h4>                        
                     {/* </a> */}
                 </li>
+
+                <li>
+                        <img src="commit-to-eat.png" width={275} height={230} alt="eating"></img>
+                            <h4>An Eating Contest
+                            <br />
+                            <h5>React/GraphQL/MERN</h5>
+                            </h4>
+                    {/* </a> */}
+                </li>
             </ul> 
         </div> 
       </p>
